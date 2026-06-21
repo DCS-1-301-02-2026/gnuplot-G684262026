@@ -32,14 +32,14 @@ set terminal svg
 
 次の図と同じようになるように gnuplotの記述を追記せよ.
 
-- データは `weather2024.csv` から取り出す
+- データは `weather2026.csv` から取り出す
   - CSV である (データが 「 , 」で区切られている)ことに注意
 - データとして1列目をx軸，2から4列目をy軸に指定し，
 折れ線グラフにし，凡例を付ける
 - グラフのタイトル，x軸のラベル，y軸のラベルを付ける
 - 格子状の補助線を入れる
 
-![weather](weather2025.png)
+![weather](weather2026.png)
 
 ```gnuplot {cmd=true, output="html"}
 set terminal svg
